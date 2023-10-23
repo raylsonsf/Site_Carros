@@ -57,8 +57,8 @@ function zoomImg(posicao) {
 function alterarTemaSite(){
     let tema = document.querySelector("html").getAttribute("data-bs-theme");
     if (tema === "dark"){
-        document.querySelector("html").setAttribute("data-bs-theme", "light"); // Correção: "light" em vez de "ligth"
-        document.querySelector("#alterarTemaSite").innerHTML = `<i class="bi bi-moon-fill"></i>`; // Correção: "moon-fill" em vez de "moon-fiil"
+        document.querySelector("html").setAttribute("data-bs-theme", "light"); 
+        document.querySelector("#alterarTemaSite").innerHTML = `<i class="bi bi-moon-fill"></i>`; 
     } else {
         document.querySelector("html").setAttribute("data-bs-theme", "dark");
         document.querySelector("#alterarTemaSite").innerHTML = `<i class="bi bi-brightness-high-fill"></i>`;
